@@ -1,10 +1,8 @@
-from ipywidgets import HBox, Text, Button, Layout, ToggleButtons
-from spectral_cube import SpectralCube
-from astropy.utils import data
-from traitlets import Dict
-import numpy as np
 from astropy.io import fits
 from astropy.wcs import WCS
+from ipywidgets import Button, HBox, Layout, Text, ToggleButtons
+from spectral_cube import SpectralCube
+from traitlets import Dict
 
 
 class MenuBar(HBox):

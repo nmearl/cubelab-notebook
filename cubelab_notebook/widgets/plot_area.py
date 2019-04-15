@@ -1,7 +1,6 @@
-from ipywidgets import VBox
-import plotly.graph_objs as go
-import plotly.plotly as py
 import numpy as np
+import plotly.graph_objs as go
+from ipywidgets import VBox
 
 
 class PlotArea(VBox):

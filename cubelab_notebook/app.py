@@ -1,7 +1,4 @@
-from ipywidgets import Button, GridBox, Layout, ButtonStyle, HBox, Accordion, VBox, IntSlider, Text, ToggleButtons
-import numpy as np
-from traitlets import Unicode
-
+from ipywidgets import (Button, GridBox, Layout)
 
 from .widgets.menu_bar import MenuBar
 from .widgets.plot_area import PlotArea
